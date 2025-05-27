@@ -20,6 +20,79 @@ import githubIcon from '../assets/gh.svg'
     <div class="float-block block11"></div>
     <div class="float-block block12"></div>
     <div class="float-block block13"></div>
+    <div class="float-block block14"></div>
+    <div class="float-block block15"></div>
+    <div class="float-block block16"></div>
+    <div class="float-block block17"></div>
+    <div class="float-block block18"></div>
+    <div class="float-block block19"></div>
+    <div class="float-block block20"></div>
+    <div class="float-block block21"></div>
+    <div class="float-block block22"></div>
+    <div class="float-block block23"></div>
+    <div class="float-block block24"></div>
+    <div class="float-block block25"></div>
+    <div class="float-block block26"></div>
+    <div class="float-block block27"></div>
+    <div class="float-block block28"></div>
+    <div class="float-block block29"></div>
+    <div class="float-block block30"></div>
+    <div class="float-block block31"></div>
+    <div class="float-block block32"></div>
+    <div class="float-block block33"></div>
+    <div class="float-block block12"></div>
+    <div class="float-block block13"></div>
+    <div class="float-block block14"></div>
+    <div class="float-block block15"></div>
+    <div class="float-block block16"></div>
+    <div class="float-block block17"></div>
+    <div class="float-block block18"></div>
+    <div class="float-block block19"></div>
+    <div class="float-block block20"></div>
+    <div class="float-block block21"></div>
+    <div class="float-block block22"></div>
+    <div class="float-block block23"></div>
+    <div class="float-block block24"></div>
+    <div class="float-block block25"></div>
+    <div class="float-block block26"></div>
+    <div class="float-block block27"></div>
+    <div class="float-block block28"></div>
+    <div class="float-block block29"></div>
+    <div class="float-block block30"></div>
+    <div class="float-block block31"></div>
+    <div class="float-block block32"></div>
+    <div class="float-block block33"></div>
+    <div class="float-block block34"></div>
+    <div class="float-block block35"></div>
+    <div class="float-block block36"></div>
+    <div class="float-block block37"></div>
+    <div class="float-block block38"></div>
+    <div class="float-block block39"></div>
+    <div class="float-block block40"></div>
+    <div class="float-block block41"></div>
+    <div class="float-block block42"></div>
+    <div class="float-block block43"></div>
+    <div class="float-block block44"></div>
+    <div class="float-block block45"></div>
+    <div class="float-block block46"></div>
+    <div class="float-block block47"></div>
+    <div class="float-block block48"></div>
+    <div class="float-block block49"></div>
+    <div class="float-block block50"></div>
+    <div class="float-block block51"></div>
+    <div class="float-block block52"></div>
+    <div class="float-block block53"></div>
+    <div class="float-block block54"></div>
+    <div class="float-block block55"></div>
+    <div class="float-block block56"></div>
+    <div class="float-block block57"></div>
+    <div class="float-block block58"></div>
+    <div class="float-block block59"></div>
+    <div class="float-block block60"></div>
+    <div class="float-block block61"></div>
+    <div class="float-block block62"></div>
+    <div class="float-block block63"></div>
+
   </div>
   <div class="portfolio">
     <h1>👋 Hi, I'm Vencordthemer!</h1>
@@ -83,6 +156,15 @@ import githubIcon from '../assets/gh.svg'
       </ul>
     </section>
   </div>
+
+  <div class="footer">
+    <a
+      href="https://github.com/vencordthemer/site">
+      View source code
+    </a>
+      
+    
+  </div>
 </template>
 
 
@@ -116,8 +198,57 @@ import githubIcon from '../assets/gh.svg'
 .block10 { width: 90px; height: 90px; background: #00bfae; bottom: 8%; left: 60%; animation-delay: 7s; }
 .block11 { width: 75px; height: 75px; background: #f50057; top: 50%; right: 10%; animation-delay: 4.5s; }
 .block12 { width: 60px; height: 60px; background: #ffb300; bottom: 40%; left: 80%; animation-delay: 8s; }
-.block13 { width: 100px; height: 100px; background: #3949ab; top: 30%; left: 50%; animation-delay: 9s; }
-
+.block13 { width: 100px; height: 100px; background: #3949ab; top: 30%; right: 50%; animation-delay: 9s; }
+.block14 { width: 60px; height: 60px; background: #ff1744; top: 15%; left: 60%; animation-delay: 2.2s; }
+.block15 { width: 80px; height: 80px; background: #00bcd4; bottom: 10%; right: 5%; animation-delay: 3.7s; }
+.block16 { width: 50px; height: 50px; background: #ffd600; top: 80%; left: 40%; animation-delay: 5.1s; }
+.block17 { width: 100px; height: 100px; background: #ab47bc; top: 25%; right: 35%; animation-delay: 6.3s; }
+.block18 { width: 70px; height: 70px; background: #00e676; bottom: 18%; left: 10%; animation-delay: 7.5s; }
+.block19 { width: 90px; height: 90px; background: #ff9100; top: 55%; right: 15%; animation-delay: 8.2s; }
+.block20 { width: 65px; height: 65px; background: #2979ff; bottom: 25%; left: 55%; animation-delay: 9.1s; }
+.block21 { width: 85px; height: 85px; background: #c51162; top: 35%; right: 80%; animation-delay: 10.4s; }
+.block22 { width: 55px; height: 55px; background: #00c853; bottom: 60%; left: 25%; animation-delay: 11.2s; }
+.block23 { width: 75px; height: 75px; background: #ffea00; top: 65%; right: 30%; animation-delay: 12s; }
+.block24 { width: 55px; height: 55px; background: #ff80ab; top: 22%; left: 35%; animation-delay: 13s; }
+.block25 { width: 70px; height: 70px; background: #00bcd4; bottom: 12%; left: 75%; animation-delay: 13.5s; }
+.block26 { width: 60px; height: 60px; background: #ffd740; top: 38%; right: 12%; animation-delay: 14s; }
+.block27 { width: 90px; height: 90px; background: #b388ff; bottom: 45%; left: 18%; animation-delay: 14.5s; }
+.block28 { width: 80px; height: 80px; background: #ff5252; top: 70%; right: 28%; animation-delay: 15s; }
+.block29 { width: 65px; height: 65px; background: #69f0ae; bottom: 60%; left: 60%; animation-delay: 15.5s; }
+.block30 { width: 75px; height: 75px; background: #ffd600; top: 18%; right: 55%; animation-delay: 16s; }
+.block31 { width: 50px; height: 50px; background: #536dfe; bottom: 15%; right: 20%; animation-delay: 16.5s; }
+.block32 { width: 85px; height: 180px; background: #ffab00; top: 48%; left: 85%; animation-delay: 17s; }
+.block33 { width: 60px; height: 60px; background: #00e5ff; bottom: 35%; right: 40%; animation-delay: 17.5s; }
+.block34 { width: 70px; height: 70px; background: #ffb74d; top: 12%; left: 80%; animation-delay: 18s; }
+.block35 { width: 60px; height: 60px; background: #00bcd4; bottom: 20%; right: 10%; animation-delay: 18.5s; }
+.block36 { width: 90px; height: 90px; background: #d500f9; top: 45%; left: 60%; animation-delay: 19s; }
+.block37 { width: 80px; height: 80px; background: #76ff03; bottom: 50%; right: 25%; animation-delay: 19.5s; }
+.block38 { width: 55px; height: 55px; background: #ff4081; top: 78%; left: 10%; animation-delay: 20s; }
+.block39 { width: 100px; height: 100px; background: #00e676; bottom: 5%; left: 35%; animation-delay: 20.5s; }
+.block40 { width: 65px; height: 65px; background: #ff1744; top: 60%; right: 60%; animation-delay: 21s; }
+.block41 { width: 85px; height: 85px; background: #2979ff; bottom: 40%; left: 70%; animation-delay: 21.5s; }
+.block42 { width: 75px; height: 75px; background: #ffd600; top: 25%; right: 10%; animation-delay: 22s; }
+.block43 { width: 60px; height: 60px; background: #00bfae; bottom: 60%; right: 50%; animation-delay: 22.5s; }
+.block44 { width: 90px; height: 90px; background: #ffb300; top: 10%; left: 20%; animation-delay: 23s; }
+.block45 { width: 80px; height: 80px; background: #00e676; bottom: 15%; right: 60%; animation-delay: 23.5s; }
+.block46 { width: 70px; height: 70px; background: #ab47bc; top: 70%; left: 50%; animation-delay: 24s; }
+.block47 { width: 60px; height: 60px; background: #ff5252; bottom: 30%; right: 30%; animation-delay: 24.5s; }
+.block48 { width: 100px; height: 100px; background: #ffd600; top: 55%; left: 10%; animation-delay: 25s; }
+.block49 { width: 55px; height: 55px; background: #00bcd4; bottom: 45%; left: 80%; animation-delay: 25.5s; }
+.block50 { width: 85px; height: 85px; background: #ff80ab; top: 40%; right: 40%; animation-delay: 26s; }
+.block51 { width: 75px; height: 75px; background: #3949ab; bottom: 70%; left: 30%; animation-delay: 26.5s; }
+.block52 { width: 65px; height: 65px; background: #ffea00; top: 60%; right: 20%; animation-delay: 27s; }
+.block53 { width: 90px; height: 90px; background: #2979ff; bottom: 10%; left: 50%; animation-delay: 27.5s; }
+.block54 { width: 60px; height: 60px; background: #ff5ca7; top: 30%; left: 70%; animation-delay: 28s; }
+.block55 { width: 80px; height: 80px; background: #00c853; bottom: 20%; right: 40%; animation-delay: 28.5s; }
+.block56 { width: 50px; height: 50px; background: #ffb74d; top: 80%; left: 60%; animation-delay: 29s; }
+.block57 { width: 100px; height: 100px; background: #c51162; bottom: 60%; right: 15%; animation-delay: 29.5s; }
+.block58 { width: 70px; height: 70px; background: #ffd740; top: 35%; left: 40%; animation-delay: 30s; }
+.block59 { width: 60px; height: 60px; background: #00e5ff; bottom: 25%; right: 70%; animation-delay: 30.5s; }
+.block60 { width: 90px; height: 90px; background: #ff1744; top: 50%; left: 80%; animation-delay: 31s; }
+.block61 { width: 80px; height: 80px; background: #42b883; bottom: 40%; right: 60%; animation-delay: 31.5s; }
+.block62 { width: 75px; height: 75px; background: #ff9100; top: 20%; right: 30%; animation-delay: 32s; }
+.block63 { width: 65px; height: 65px; background: #536dfe; bottom: 60%; left: 20%; animation-delay: 32.5s; }
 @keyframes float {
   0% { transform: translateY(0) scale(1);}
   100% { transform: translateY(-40px) scale(1.08);}
@@ -182,7 +313,18 @@ import githubIcon from '../assets/gh.svg'
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', sans-serif;
   color: #22223b;
   z-index: 1;
+
+
 } 
+
+.footer {
+  font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', sans-serif;
+  transition: transform 0.25s cubic-bezier(.4,1.4,.6,1);
+}
+
+.footer:hover {
+  transform: scale(1.08);
+}
 
 @media (max-width: 600px) {
   .portfolio {
