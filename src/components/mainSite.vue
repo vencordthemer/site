@@ -218,7 +218,7 @@ import githubIcon from '../assets/gh.svg'
   border-radius: 18px;
   opacity: 0.18;
   filter: blur(8px);
-  animation: float 3.5s ease-in-out infinite alternate;
+  animation: float 1s ease-in-out infinite alternate;
 }
 /* Individual floating block positions, colors, and delays */
 .block1 {
