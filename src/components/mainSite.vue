@@ -1,9 +1,11 @@
 <script setup>
+// Import the github SVG
 import githubIcon from '../assets/gh.svg'
 
 </script>
 
 <template>
+    <!-- Floating background blocks for playful effect -->
   <div class="floating-bg">
     <div class="float-block block1"></div>
     <div class="float-block block2"></div>
@@ -21,6 +23,7 @@ import githubIcon from '../assets/gh.svg'
   </div>
   <div class="portfolio">
     <h1>👋 Hi, I'm Vencordthemer!</h1>
+        <!-- Main GitHub profile link -->
     <a
   href="https://github.com/vencordthemer"
   target="_blank"
@@ -39,21 +42,33 @@ import githubIcon from '../assets/gh.svg'
     </section>
 
     <section class="projects">
+         <!-- Each project card starts with a GitHub icon link to its repo -->
       <h2>🔧 Projects</h2>
       <ul>
+  <li>
+    <a href="https://github.com/vencordthemer/linky" target="_blank" rel="noopener" class="project-gh">
+      <img :src="githubIcon" alt="GitHub" class="github-icon-project" />
+    </a>
+    <strong>Linky</strong>:  A Linktree-style profile page builder using Firebase for auth and data storage, and Vite + React for the frontend. Fast, responsive, and hosted on Cloudflare Pages.
+  </li>
+  
         <li>
-          <strong>Linky</strong>: A Linktree-style profile page builder using Firebase for auth and data storage, and Vite + React for the frontend. Fast, responsive, and hosted on Cloudflare Pages.
-        </li>
-        <li>
+              <a href="https://github.com/vencordthemer/chatzy" target="_blank" rel="noopener" class="project-gh">
+      <img :src="githubIcon" alt="GitHub" class="github-icon-project" />
+    </a>
           <strong>Chatzy</strong>: A real-time chat app like Discord, built with Firebase backend and custom UI. Fully functional with authentication, message threads, and a modern design.
         </li>
+
         <li>
-          <strong>Midcord</strong>: A Discord-style messaging platform with custom roles, Firebase integration, and multiple server support. Currently being refined with secure permissions and user roles.
-        </li>
-        <li>
+              <a href="https://github.com/vencordthemer/simplecli" target="_blank" rel="noopener" class="project-gh">
+      <img :src="githubIcon" alt="GitHub" class="github-icon-project" />
+    </a>
           <strong>Climenus</strong>: A Python CLI menu library (<code>from cli import Menu</code>) designed for rapid prototyping and tool building. Ideal for interactive terminal tools with zero boilerplate.
         </li>
         <li>
+              <a href="https://github.com/vencordthemer/burple" target="_blank" rel="noopener" class="project-gh">
+      <img :src="githubIcon" alt="GitHub" class="github-icon-project" />
+    </a>
           <strong>Burple Theme (VS Code)</strong>: A custom VS Code theme with vibrant black and purple aesthetics. Comes in Burple Dark and Burple Light modes, packaged as a .vsix.
         </li>
       </ul>
@@ -73,9 +88,7 @@ import githubIcon from '../assets/gh.svg'
 
 
 <style scoped>
-
-/*Floating blocks START*/
-
+/* --- Floating blocks for playful animated background --- */
 .floating-bg {
   position: fixed;
   inset: 0;
@@ -90,6 +103,7 @@ import githubIcon from '../assets/gh.svg'
   filter: blur(8px);
   animation: float 12s ease-in-out infinite alternate;
 }
+/* Individual floating block positions, colors, and delays */
 .block1 { width: 180px; height: 180px; background: #6c63ff; top: 8%; left: 10%; animation-delay: 0s; }
 .block2 { width: 120px; height: 120px; background: #ff8c00; bottom: 12%; right: 14%; animation-delay: 2s; }
 .block3 { width: 90px; height: 90px; background: #42b883; top: 60%; left: 70%; animation-delay: 4s; }
@@ -108,21 +122,44 @@ import githubIcon from '../assets/gh.svg'
   0% { transform: translateY(0) scale(1);}
   100% { transform: translateY(-40px) scale(1.08);}
 }
-/*Floating blocks END*/
+/* --- End Floating blocks --- */
 
+/* Force white background on all platforms */
 :global(body) {
   background: #fff !important;
 }
 
+/* Main GitHub profile link styling */
 .github-link {
   display: inline-block;
   margin-bottom: 1.5rem;
   margin-left: 0.5rem;
   vertical-align: middle;
 }
+
+/* Project GitHub icon styling */
+.project-gh {
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.github-icon-project {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  filter: grayscale(0.2) brightness(0.9);
+  transition: transform 0.2s;
+}
+/* Animate project GitHub icon on hover */
+.project-gh:hover .github-icon-project {
+  transform: scale(1.15) rotate(-8deg);
+  filter: none;
+}
+
+/* Main GitHub icon styling */
 .github-icon {
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   transition: transform 0.2s;
   vertical-align: middle;
   filter: grayscale(0.2) brightness(0.9);
@@ -132,15 +169,14 @@ import githubIcon from '../assets/gh.svg'
   filter: none;
 }
 
+/* Portfolio card styling */
 .portfolio {
   position: relative;
   width: 90%;
   max-width: 700px;
   margin: 2rem auto;
   padding: 2rem 2.5rem;
- 
   background: #fffbe7 !important;
-
   border-radius: 18px;
   box-shadow: 0 6px 24px #0001;
   font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', sans-serif;
