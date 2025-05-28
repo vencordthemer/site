@@ -1,37 +1,61 @@
-name: "Bug report"
-description: "Report A Bug"
+name: "🐛 Bug Report"
+description: Report a reproducible bug or unexpected behavior
+title: "[Bug] <brief description>"
+labels: [bug]
+assignees: []
 
 body:
-- type: markdown
-  attributes:
-    value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this bug!
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below as thoroughly as possible.
+
+
+
 
   - type: textarea
-  id: repro
-  attributes:
-    label: Explain the bug.
-    description: "What is the bug? Explain it well"
-    value: |
-    Explain the bug.
-  
-  validations:
-    required: true
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Provide a clear and concise description of what the bug is.
+      placeholder: "When I click the github icon, nothing happens..."
+    validations:
+      required: true
 
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Please tell us how to reproduce the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
 
-- type: textarea
-  id: repro
-  attributes:
-    label: Reproduction steps
-    description: "How do you trigger this bug? Please walk us through it step by step."
-    value: |
-      1.
-      2.
-      3.
-      ...
-    render: bash
-  validations:
-    required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: "I expected to be sent to the github."
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: Paste any console errors or add screenshots here. (You can drag & drop into this box)
+      render: shell
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues and confirmed this is not a duplicate.
+          required: true
+        - label: I have reproduced this bug on the latest version.
+          required: true
+
