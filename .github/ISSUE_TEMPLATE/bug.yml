@@ -10,14 +10,14 @@ body:
     value: |
       Thanks for taking the time to fill out this bug!
 
-      - type: textarea
+  - type: textarea
   id: repro
   attributes:
     label: Explain the bug.
     description: "What is the bug? Explain it well"
     value: |
     
-    render: bash
+  
   validations:
     required: true
 
