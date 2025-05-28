@@ -91,6 +91,43 @@ import githubIcon from '../assets/gh.svg'
     <div class="float-block block61"></div>
     <div class="float-block block62"></div>
     <div class="float-block block63"></div>
+    <div class="float-block block64"></div>
+    <div class="float-block block65"></div>
+    <div class="float-block block66"></div>
+    <div class="float-block block67"></div>
+    <div class="float-block block68"></div>
+    <div class="float-block block69"></div>
+    <div class="float-block block70"></div>
+    <div class="float-block block71"></div>
+    <div class="float-block block72"></div>
+    <div class="float-block block73"></div>
+    <div class="float-block block74"></div>
+    <div class="float-block block75"></div>
+    <div class="float-block block76"></div>
+    <div class="float-block block77"></div>
+    <div class="float-block block78"></div>
+    <div class="float-block block79"></div>
+    <div class="float-block block80"></div>
+    <div class="float-block block81"></div>
+    <div class="float-block block82"></div>
+    <div class="float-block block83"></div>
+    <div class="float-block block84"></div>
+    <div class="float-block block85"></div>
+    <div class="float-block block86"></div>
+    <div class="float-block block87"></div>
+    <div class="float-block block88"></div>
+    <div class="float-block block89"></div>
+    <div class="float-block block90"></div>
+    <div class="float-block block91"></div>
+    <div class="float-block block92"></div>
+    <div class="float-block block93"></div>
+    <div class="float-block block94"></div>
+    <div class="float-block block95"></div>
+    <div class="float-block block96"></div>
+    <div class="float-block block97"></div>
+    <div class="float-block block98"></div>
+    <div class="float-block block99"></div>
+    <div class="float-block block100"></div>
   </div>
   <div class="portfolio">
     <h1>👋 Hi, I'm Vencordthemer!</h1>
@@ -965,6 +1002,302 @@ import githubIcon from '../assets/gh.svg'
   right: 20%;
   animation-delay: 32.5s;
 }
+.block64 {
+  width: 60px;
+  height: 60px;
+  background: #ffb6b6;
+  top: 12%;
+  left: 12%;
+  animation-delay: 33s;
+}
+.block65 {
+  width: 80px;
+  height: 80px;
+  background: #b6ffd6;
+  bottom: 22%;
+  right: 22%;
+  animation-delay: 33.5s;
+}
+.block66 {
+  width: 70px;
+  height: 70px;
+  background: #b6b6ff;
+  top: 32%;
+  left: 72%;
+  animation-delay: 34s;
+}
+.block67 {
+  width: 90px;
+  height: 90px;
+  background: #ffd6b6;
+  bottom: 42%;
+  right: 62%;
+  animation-delay: 34.5s;
+}
+.block68 {
+  width: 50px;
+  height: 50px;
+  background: #d6b6ff;
+  top: 52%;
+  left: 22%;
+  animation-delay: 35s;
+}
+.block69 {
+  width: 100px;
+  height: 100px;
+  background: #b6ffd6;
+  bottom: 62%;
+  right: 42%;
+  animation-delay: 35.5s;
+}
+.block70 {
+  width: 60px;
+  height: 60px;
+  background: #b6b6ff;
+  top: 72%;
+  left: 52%;
+  animation-delay: 36s;
+}
+.block71 {
+  width: 80px;
+  height: 80px;
+  background: #ffd6b6;
+  bottom: 82%;
+  right: 12%;
+  animation-delay: 36.5s;
+}
+.block72 {
+  width: 70px;
+  height: 70px;
+  background: #ffb6b6;
+  top: 22%;
+  left: 62%;
+  animation-delay: 37s;
+}
+.block73 {
+  width: 90px;
+  height: 90px;
+  background: #b6ffd6;
+  bottom: 32%;
+  right: 72%;
+  animation-delay: 37.5s;
+}
+.block74 {
+  width: 50px;
+  height: 50px;
+  background: #b6b6ff;
+  top: 42%;
+  left: 32%;
+  animation-delay: 38s;
+}
+.block75 {
+  width: 100px;
+  height: 100px;
+  background: #ffd6b6;
+  bottom: 52%;
+  right: 22%;
+  animation-delay: 38.5s;
+}
+.block76 {
+  width: 60px;
+  height: 60px;
+  background: #d6b6ff;
+  top: 62%;
+  left: 42%;
+  animation-delay: 39s;
+}
+.block77 {
+  width: 80px;
+  height: 80px;
+  background: #ffb6b6;
+  bottom: 72%;
+  right: 52%;
+  animation-delay: 39.5s;
+}
+.block78 {
+  width: 70px;
+  height: 70px;
+  background: #b6ffd6;
+  top: 82%;
+  left: 12%;
+  animation-delay: 40s;
+}
+.block79 {
+  width: 90px;
+  height: 90px;
+  background: #b6b6ff;
+  bottom: 12%;
+  right: 82%;
+  animation-delay: 40.5s;
+}
+.block80 {
+  width: 50px;
+  height: 50px;
+  background: #ffd6b6;
+  top: 12%;
+  left: 82%;
+  animation-delay: 41s;
+}
+.block81 {
+  width: 70px;
+  height: 70px;
+  background: #ffe082;
+  top: 18%;
+  right: 18%;
+  animation-delay: 41.5s;
+}
+.block82 {
+  width: 90px;
+  height: 90px;
+  background: #b2ff59;
+  bottom: 28%;
+  left: 28%;
+  animation-delay: 42s;
+}
+.block83 {
+  width: 60px;
+  height: 60px;
+  background: #80d8ff;
+  top: 38%;
+  right: 38%;
+  animation-delay: 42.5s;
+}
+.block84 {
+  width: 100px;
+  height: 100px;
+  background: #ea80fc;
+  bottom: 48%;
+  left: 48%;
+  animation-delay: 43s;
+}
+.block85 {
+  width: 80px;
+  height: 80px;
+  background: #ff9e80;
+  top: 58%;
+  right: 58%;
+  animation-delay: 43.5s;
+}
+.block86 {
+  width: 50px;
+  height: 50px;
+  background: #ffd180;
+  bottom: 68%;
+  left: 68%;
+  animation-delay: 44s;
+}
+.block87 {
+  width: 100px;
+  height: 100px;
+  background: #b388ff;
+  top: 78%;
+  right: 78%;
+  animation-delay: 44.5s;
+}
+.block88 {
+  width: 60px;
+  height: 60px;
+  background: #8c9eff;
+  bottom: 88%;
+  left: 88%;
+  animation-delay: 45s;
+}
+.block89 {
+  width: 70px;
+  height: 70px;
+  background: #ffb6b6;
+  top: 28%;
+  left: 38%;
+  animation-delay: 45.5s;
+}
+.block90 {
+  width: 90px;
+  height: 90px;
+  background: #b6ffd6;
+  bottom: 38%;
+  right: 48%;
+  animation-delay: 46s;
+}
+.block91 {
+  width: 60px;
+  height: 60px;
+  background: #b6b6ff;
+  top: 48%;
+  left: 58%;
+  animation-delay: 46.5s;
+}
+.block92 {
+  width: 100px;
+  height: 100px;
+  background: #ffd6b6;
+  bottom: 58%;
+  right: 68%;
+  animation-delay: 47s;
+}
+.block93 {
+  width: 80px;
+  height: 80px;
+  background: #d6b6ff;
+  top: 68%;
+  left: 78%;
+  animation-delay: 47.5s;
+}
+.block94 {
+  width: 50px;
+  height: 50px;
+  background: #b6ffd6;
+  bottom: 78%;
+  right: 88%;
+  animation-delay: 48s;
+}
+.block95 {
+  width: 100px;
+  height: 100px;
+  background: #b6b6ff;
+  top: 88%;
+  left: 18%;
+  animation-delay: 48.5s;
+}
+.block96 {
+  width: 60px;
+  height: 60px;
+  background: #ffd6b6;
+  bottom: 18%;
+  right: 28%;
+  animation-delay: 49s;
+}
+.block97 {
+  width: 80px;
+  height: 80px;
+  background: #ffb6b6;
+  top: 38%;
+  left: 48%;
+  animation-delay: 49.5s;
+}
+.block98 {
+  width: 70px;
+  height: 70px;
+  background: #b6ffd6;
+  bottom: 48%;
+  right: 58%;
+  animation-delay: 50s;
+}
+.block99 {
+  width: 90px;
+  height: 90px;
+  background: #b6b6ff;
+  top: 58%;
+  left: 68%;
+  animation-delay: 50.5s;
+}
+.block100 {
+  width: 50px;
+  height: 50px;
+  background: #ffd6b6;
+  bottom: 68%;
+  right: 78%;
+  animation-delay: 51s;
+}
 @keyframes float {
   0% {
     transform: translateY(0) scale(1);
@@ -1090,3 +1423,4 @@ code {
   color: #6c63ff;
 }
 </style>
+
