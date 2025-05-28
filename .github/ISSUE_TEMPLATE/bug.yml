@@ -16,7 +16,7 @@ body:
     label: Explain the bug.
     description: "What is the bug? Explain it well"
     value: |
-    
+    Explain the bug.
   
   validations:
     required: true
